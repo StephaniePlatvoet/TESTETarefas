@@ -1,0 +1,14 @@
+
+…or create a new repository on the command line
+git init
+git commit -m "1 commit"
+git branch -M main
+git remote add originw https://github.com/StephaniePlatvoet/tarefa2.git
+git push -u originw main
+git add .
+
+…or push an existing repository from the command line
+git remote add originw https://github.com/StephaniePlatvoet/tarefa2.git
+git branch -M main
+git push -u originw main
+

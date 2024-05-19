@@ -1,0 +1,21 @@
+-- to make venv:
+pip install virtualenv
+virtualenv venvTarefas 
+
+
+-- imports:
+pip install flask
+pip install Flask-SQLAlchemy
+pip install sqlalchemy
+pip install python-dateutil
+pip install gunicorn
+
+
+
+-- versões:
+app_files --version (Python 3.9.6);
+pip --version (pip 22.3.1);
+ngrok --version (ngrok version 3.3.1);
+brew --version (Homebrew 4.1.0);
+flask-ngrok (6.8.0) ;
+wget --version (GNU Wget 1.21.4 compilado a darwin22.4.0)

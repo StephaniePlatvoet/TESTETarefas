@@ -1,0 +1,17 @@
+
+--to make bd:
+flask import-csv
+flask import-csv-birthdays
+
+
+-- caminho:
+nome_pasta_projeto = 'projeto tarefas oficial'
+caminho_ate_projeto = '/Users/stephanietrabalho/Desktop/projetos codigo recentes/'
+nome_pasta_database = '/database'
+caminho_pasta_database = caminho_ate_projeto + nome_pasta_projeto + nome_pasta_database
+
+
+
+---
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(caminho_pasta_database, 'tarefas.db')
